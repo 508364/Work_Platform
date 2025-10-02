@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "work_platform:blocks/lightpanel",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "work_platform:lightpanel"
+        }
+      ]
+    }
+  ]
+}

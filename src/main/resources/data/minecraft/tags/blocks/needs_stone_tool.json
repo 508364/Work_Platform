@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "work_platform:replaceableblock",
+    "work_platform:searchlight",
+    "work_platform:workplatformbig",
+    "work_platform:workplatformlighting",
+    "work_platform:workplatform"
+  ]
+}

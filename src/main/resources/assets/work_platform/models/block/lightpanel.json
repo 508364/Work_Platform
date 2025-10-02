@@ -1,0 +1,9 @@
+{
+  "parent": "work_platform:custom/light_panel",
+  "textures": {
+    "all": "work_platform:block/159",
+    "particle": "work_platform:block/159",
+    "0": "work_platform:block/159"
+  },
+  "render_type": "solid"
+}

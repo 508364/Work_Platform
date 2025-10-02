@@ -1,0 +1,9 @@
+{
+  "parent": "work_platform:custom/searchlight",
+  "textures": {
+    "all": "work_platform:block/searchlight",
+    "particle": "work_platform:block/searchlight",
+    "2": "work_platform:block/searchlight"
+  },
+  "render_type": "solid"
+}

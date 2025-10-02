@@ -1,0 +1,9 @@
+{
+  "parent": "work_platform:custom/demolition",
+  "textures": {
+    "all": "work_platform:block/demolition",
+    "particle": "work_platform:block/demolition",
+    "2": "work_platform:block/demolition"
+  },
+  "render_type": "solid"
+}

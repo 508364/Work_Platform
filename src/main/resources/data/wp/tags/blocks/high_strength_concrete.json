@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "work_platform:white_high_strength_concrete",
+    "work_platform:orange_high_strength_concrete",
+    "work_platform:magenta_high_strength_concrete",
+    "work_platform:light_blue_high_strength_concrete",
+    "work_platform:yellow_high_strength_concrete",
+    "work_platform:lime_high_strength_concrete",
+    "work_platform:pink_high_strength_concrete",
+    "work_platform:gray_high_strength_concrete",
+    "work_platform:light_gray_high_strength_concrete",
+    "work_platform:cyan_high_strength_concrete",
+    "work_platform:purple_high_strength_concrete",
+    "work_platform:blue_high_strength_concrete",
+    "work_platform:brown_high_strength_concrete",
+    "work_platform:green_high_strength_concrete",
+    "work_platform:red_high_strength_concrete",
+    "work_platform:black_high_strength_concrete",
+    "work_platform:replaceableblock"
+  ]
+}

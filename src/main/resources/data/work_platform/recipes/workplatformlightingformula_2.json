@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "workplatformlightingformula_2",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cde",
+    "cde"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sea_lantern"
+    },
+    "b": {
+      "item": "minecraft:obsidian"
+    },
+    "c": {
+      "item": "minecraft:yellow_concrete"
+    },
+    "d": {
+      "item": "minecraft:gray_concrete"
+    },
+    "e": {
+      "item": "minecraft:black_concrete"
+    }
+  },
+  "result": {
+    "item": "work_platform:workplatformlighting",
+    "count": 1
+  }
+}

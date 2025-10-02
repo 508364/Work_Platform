@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "demolitionformula",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:tnt"
+    },
+    "b": {
+      "tag": "minecraft:buttons"
+    }
+  },
+  "result": {
+    "item": "work_platform:demolition",
+    "count": 1
+  }
+}

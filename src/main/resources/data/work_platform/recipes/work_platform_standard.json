@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "work_platform_standard_formula",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    "bcd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:obsidian"
+    },
+    "b": {
+      "item": "minecraft:yellow_concrete"
+    },
+    "c": {
+      "item": "minecraft:gray_concrete"
+    },
+    "d": {
+      "item": "minecraft:black_concrete"
+    }
+  },
+  "result": {
+    "item": "work_platform:workplatform",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "work_platform:custom/work-platform",
+  "textures": {
+    "all": "work_platform:block/texture",
+    "particle": "work_platform:block/texture",
+    "0": "work_platform:block/texture"
+  },
+  "render_type": "solid"
+}

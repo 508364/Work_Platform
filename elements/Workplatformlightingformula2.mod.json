@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "workplatformlightingformula_2",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.SEA_LANTERN"
+      },
+      {
+        "value": "Blocks.OBSIDIAN"
+      },
+      {
+        "value": "Blocks.SEA_LANTERN"
+      },
+      {
+        "value": "Blocks.CONCRETE#4"
+      },
+      {
+        "value": "Blocks.CONCRETE#7"
+      },
+      {
+        "value": "Blocks.CONCRETE#15"
+      },
+      {
+        "value": "Blocks.CONCRETE#4"
+      },
+      {
+        "value": "Blocks.CONCRETE#7"
+      },
+      {
+        "value": "Blocks.CONCRETE#15"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Workplatformlighting"
+    },
+    "name": "workplatformlightingformula_2",
+    "namespace": "mod"
+  }
+}

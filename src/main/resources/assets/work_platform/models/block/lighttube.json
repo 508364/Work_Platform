@@ -1,0 +1,9 @@
+{
+  "parent": "work_platform:custom/light_tube",
+  "textures": {
+    "all": "work_platform:block/999",
+    "particle": "work_platform:block/999",
+    "0": "work_platform:block/999"
+  },
+  "render_type": "solid"
+}

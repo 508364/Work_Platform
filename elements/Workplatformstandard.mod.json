@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "work_platform_standard_formula",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.OBSIDIAN"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CONCRETE#4"
+      },
+      {
+        "value": "Blocks.CONCRETE#7"
+      },
+      {
+        "value": "Blocks.CONCRETE#15"
+      },
+      {
+        "value": "Blocks.CONCRETE#4"
+      },
+      {
+        "value": "Blocks.CONCRETE#7"
+      },
+      {
+        "value": "Blocks.CONCRETE#15"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Workplatform"
+    },
+    "name": "work_platform_standard",
+    "namespace": "mod"
+  }
+}

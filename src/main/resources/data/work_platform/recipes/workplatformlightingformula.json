@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "workplatformlightingformula",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:sea_lantern"
+    },
+    {
+      "item": "work_platform:workplatform"
+    },
+    {
+      "item": "minecraft:sea_lantern"
+    }
+  ],
+  "result": {
+    "item": "work_platform:workplatformlighting",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "tab",
+  "definition": {
+    "name": "Hardenedconcrete",
+    "icon": {
+      "value": "Blocks.CONCRETE#0"
+    },
+    "showSearch": false
+  }
+}

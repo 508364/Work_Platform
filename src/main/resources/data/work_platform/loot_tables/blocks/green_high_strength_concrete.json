@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "work_platform:blocks/green_high_strength_concrete",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "work_platform:green_high_strength_concrete"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "work_platform:block/lightpanel"
+    },
+    "facing=east": {
+      "model": "work_platform:block/lightpanel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "work_platform:block/lightpanel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "work_platform:block/lightpanel",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "work_platform:block/lightpanel",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "work_platform:block/lightpanel",
+      "x": 90
+    }
+  }
+}

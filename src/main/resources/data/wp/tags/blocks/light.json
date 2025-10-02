@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "work_platform:lightpanel",
+    "work_platform:searchlight",
+    "work_platform:lighttube",
+    "work_platform:highstrengthlight"
+  ]
+}

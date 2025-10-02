@@ -1,0 +1,978 @@
+{
+  "mod_elements": [
+    {
+      "name": "Workplatform",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workplatform",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/work_platform/loot_tables/blocks/workplatform.json",
+          "src/main/resources/assets/work_platform/blockstates/workplatform.json",
+          "src/main/java/net/mcreator/workplatform/block/WorkplatformBlock.java",
+          "src/main/resources/assets/work_platform/models/block/workplatform.json",
+          "src/main/resources/assets/work_platform/models/item/workplatform.json"
+        ]
+      },
+      "path": "~/Work platform standard"
+    },
+    {
+      "name": "Platform",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platform",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Workplatform1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workplatform_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/workplatform/procedures/Workplatform1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Work platform standard"
+    },
+    {
+      "name": "Workplatformlighting",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workplatformlighting",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/work_platform/models/item/workplatformlighting.json",
+          "src/main/resources/data/work_platform/loot_tables/blocks/workplatformlighting.json",
+          "src/main/resources/assets/work_platform/blockstates/workplatformlighting.json",
+          "src/main/resources/assets/work_platform/models/block/workplatformlighting.json",
+          "src/main/java/net/mcreator/workplatform/block/WorkplatformlightingBlock.java"
+        ]
+      },
+      "path": "~/Work platform lighting"
+    },
+    {
+      "name": "Workplatform2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workplatform_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/workplatform/procedures/Workplatform2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Work platform lighting"
+    },
+    {
+      "name": "Demolition",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demolition",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/work_platform/blockstates/demolition.json",
+          "src/main/resources/assets/work_platform/models/block/demolition.json",
+          "src/main/java/net/mcreator/workplatform/block/DemolitionBlock.java",
+          "src/main/resources/data/work_platform/loot_tables/blocks/demolition.json",
+          "src/main/resources/assets/work_platform/models/item/demolition.json"
+        ]
+      },
+      "path": "~/demolition"
+    },
+    {
+      "name": "Demolition1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demolition_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/workplatform/procedures/Demolition1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/demolition"
+    },
+    {
+      "name": "Workplatformstandard",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workplatformstandard",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/work_platform/recipes/work_platform_standard.json"
+        ]
+      },
+      "path": "~/Work platform standard"
+    },
+    {
+      "name": "Workplatformlightingformula",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workplatformlightingformula",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/work_platform/recipes/workplatformlightingformula.json"
+        ]
+      },
+      "path": "~/Work platform lighting"
+    },
+    {
+      "name": "Demolitionformula",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demolitionformula",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/work_platform/recipes/demolitionformula.json"
+        ]
+      },
+      "path": "~/demolition"
+    },
+    {
+      "name": "Workplatformbig",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workplatformbig",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/workplatform/block/WorkplatformbigBlock.java",
+          "src/main/resources/data/work_platform/loot_tables/blocks/workplatformbig.json",
+          "src/main/resources/assets/work_platform/blockstates/workplatformbig.json",
+          "src/main/resources/assets/work_platform/models/block/workplatformbig.json",
+          "src/main/resources/assets/work_platform/models/item/workplatformbig.json"
+        ]
+      },
+      "path": "~/Work platform big"
+    },
+    {
+      "name": "Workplatformbigformula",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workplatformbigformula",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/work_platform/recipes/workplatformbigformula.json"
+        ]
+      },
+      "path": "~/Work platform big"
+    },
+    {
+      "name": "Workplatformbig1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workplatformbig_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/workplatform/procedures/Workplatformbig1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Work platform big"
+    },
+    {
+      "name": "Work_platform_lighting1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "work_platform_lighting_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/workplatform/procedures/Work_platform_lighting1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Work platform big lighting"
+    },
+    {
+      "name": "Workplatformbiglighting",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workplatformbiglighting",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/work_platform/models/item/workplatformbiglighting.json",
+          "src/main/resources/assets/work_platform/blockstates/workplatformbiglighting.json",
+          "src/main/resources/data/work_platform/loot_tables/blocks/workplatformbiglighting.json",
+          "src/main/resources/assets/work_platform/models/block/workplatformbiglighting.json",
+          "src/main/java/net/mcreator/workplatform/block/WorkplatformbiglightingBlock.java"
+        ]
+      },
+      "path": "~/Work platform big lighting"
+    },
+    {
+      "name": "Workplatformbiglightingformula",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workplatformbiglightingformula",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/work_platform/recipes/workplatformbiglightingformula.json"
+        ]
+      },
+      "path": "~/Work platform big lighting"
+    },
+    {
+      "name": "Workplatformbiglightingformula2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workplatformbiglightingformula_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/work_platform/recipes/workplatformbiglightingformula_2.json"
+        ]
+      },
+      "path": "~/Work platform big lighting"
+    },
+    {
+      "name": "Hardenedconcrete",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardenedconcrete",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WhiteHighstrengthconcrete",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_high_strength_concrete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/work_platform/models/block/white_high_strength_concrete.json",
+          "src/main/resources/data/work_platform/loot_tables/blocks/white_high_strength_concrete.json",
+          "src/main/java/net/mcreator/workplatform/block/WhiteHighstrengthconcreteBlock.java",
+          "src/main/resources/assets/work_platform/blockstates/white_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/models/item/white_high_strength_concrete.json"
+        ]
+      },
+      "path": "~/hardened_concrete"
+    },
+    {
+      "name": "OrangeHighStrengthConcrete",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_high_strength_concrete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/work_platform/models/item/orange_high_strength_concrete.json",
+          "src/main/java/net/mcreator/workplatform/block/OrangeHighStrengthConcreteBlock.java",
+          "src/main/resources/data/work_platform/loot_tables/blocks/orange_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/models/block/orange_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/blockstates/orange_high_strength_concrete.json"
+        ]
+      },
+      "path": "~/hardened_concrete"
+    },
+    {
+      "name": "Magentahighstrengthconcrete",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_high_strength_concrete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/workplatform/block/MagentahighstrengthconcreteBlock.java",
+          "src/main/resources/assets/work_platform/blockstates/magenta_high_strength_concrete.json",
+          "src/main/resources/data/work_platform/loot_tables/blocks/magenta_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/models/block/magenta_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/models/item/magenta_high_strength_concrete.json"
+        ]
+      },
+      "path": "~/hardened_concrete"
+    },
+    {
+      "name": "Lightbluehighstrengthconcrete",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_high_strength_concrete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/work_platform/blockstates/light_blue_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/models/block/light_blue_high_strength_concrete.json",
+          "src/main/java/net/mcreator/workplatform/block/LightbluehighstrengthconcreteBlock.java",
+          "src/main/resources/assets/work_platform/models/item/light_blue_high_strength_concrete.json",
+          "src/main/resources/data/work_platform/loot_tables/blocks/light_blue_high_strength_concrete.json"
+        ]
+      },
+      "path": "~/hardened_concrete"
+    },
+    {
+      "name": "Yellowhighstrengthconcrete",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_high_strength_concrete",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/work_platform/loot_tables/blocks/yellow_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/blockstates/yellow_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/models/item/yellow_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/models/block/yellow_high_strength_concrete.json",
+          "src/main/java/net/mcreator/workplatform/block/YellowhighstrengthconcreteBlock.java"
+        ]
+      },
+      "path": "~/hardened_concrete"
+    },
+    {
+      "name": "Limehighstrengthconcrete",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_high_strength_concrete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/workplatform/block/LimehighstrengthconcreteBlock.java",
+          "src/main/resources/assets/work_platform/models/item/lime_high_strength_concrete.json",
+          "src/main/resources/data/work_platform/loot_tables/blocks/lime_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/blockstates/lime_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/models/block/lime_high_strength_concrete.json"
+        ]
+      },
+      "path": "~/hardened_concrete"
+    },
+    {
+      "name": "Pinkhighstrengthconcrete",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_high_strength_concrete",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/work_platform/loot_tables/blocks/pink_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/blockstates/pink_high_strength_concrete.json",
+          "src/main/java/net/mcreator/workplatform/block/PinkhighstrengthconcreteBlock.java",
+          "src/main/resources/assets/work_platform/models/block/pink_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/models/item/pink_high_strength_concrete.json"
+        ]
+      },
+      "path": "~/hardened_concrete"
+    },
+    {
+      "name": "Grayhighstrengthconcrete",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_high_strength_concrete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/workplatform/block/GrayhighstrengthconcreteBlock.java",
+          "src/main/resources/assets/work_platform/models/item/gray_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/blockstates/gray_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/models/block/gray_high_strength_concrete.json",
+          "src/main/resources/data/work_platform/loot_tables/blocks/gray_high_strength_concrete.json"
+        ]
+      },
+      "path": "~/hardened_concrete"
+    },
+    {
+      "name": "Lightgrayhighstrengthconcrete",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_high_strength_concrete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/work_platform/models/block/light_gray_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/blockstates/light_gray_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/models/item/light_gray_high_strength_concrete.json",
+          "src/main/java/net/mcreator/workplatform/block/LightgrayhighstrengthconcreteBlock.java",
+          "src/main/resources/data/work_platform/loot_tables/blocks/light_gray_high_strength_concrete.json"
+        ]
+      },
+      "path": "~/hardened_concrete"
+    },
+    {
+      "name": "Cyanhighstrengthconcrete",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_high_strength_concrete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/work_platform/models/item/cyan_high_strength_concrete.json",
+          "src/main/java/net/mcreator/workplatform/block/CyanhighstrengthconcreteBlock.java",
+          "src/main/resources/assets/work_platform/blockstates/cyan_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/models/block/cyan_high_strength_concrete.json",
+          "src/main/resources/data/work_platform/loot_tables/blocks/cyan_high_strength_concrete.json"
+        ]
+      },
+      "path": "~/hardened_concrete"
+    },
+    {
+      "name": "Purplehighstrengthconcrete",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_high_strength_concrete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/work_platform/models/block/purple_high_strength_concrete.json",
+          "src/main/java/net/mcreator/workplatform/block/PurplehighstrengthconcreteBlock.java",
+          "src/main/resources/assets/work_platform/blockstates/purple_high_strength_concrete.json",
+          "src/main/resources/data/work_platform/loot_tables/blocks/purple_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/models/item/purple_high_strength_concrete.json"
+        ]
+      },
+      "path": "~/hardened_concrete"
+    },
+    {
+      "name": "Bluehighstrengthconcrete",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_high_strength_concrete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/work_platform/models/block/blue_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/blockstates/blue_high_strength_concrete.json",
+          "src/main/java/net/mcreator/workplatform/block/BluehighstrengthconcreteBlock.java",
+          "src/main/resources/assets/work_platform/models/item/blue_high_strength_concrete.json",
+          "src/main/resources/data/work_platform/loot_tables/blocks/blue_high_strength_concrete.json"
+        ]
+      },
+      "path": "~/hardened_concrete"
+    },
+    {
+      "name": "Brownhighstrengthconcrete",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_high_strength_concrete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/work_platform/models/block/brown_high_strength_concrete.json",
+          "src/main/java/net/mcreator/workplatform/block/BrownhighstrengthconcreteBlock.java",
+          "src/main/resources/assets/work_platform/models/item/brown_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/blockstates/brown_high_strength_concrete.json",
+          "src/main/resources/data/work_platform/loot_tables/blocks/brown_high_strength_concrete.json"
+        ]
+      },
+      "path": "~/hardened_concrete"
+    },
+    {
+      "name": "Greenhighstrengthconcrete",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_high_strength_concrete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/work_platform/models/item/green_high_strength_concrete.json",
+          "src/main/resources/data/work_platform/loot_tables/blocks/green_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/blockstates/green_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/models/block/green_high_strength_concrete.json",
+          "src/main/java/net/mcreator/workplatform/block/GreenhighstrengthconcreteBlock.java"
+        ]
+      },
+      "path": "~/hardened_concrete"
+    },
+    {
+      "name": "Redhighstrengthconcrete",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_high_strength_concrete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/work_platform/blockstates/red_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/models/block/red_high_strength_concrete.json",
+          "src/main/java/net/mcreator/workplatform/block/RedhighstrengthconcreteBlock.java",
+          "src/main/resources/assets/work_platform/models/item/red_high_strength_concrete.json",
+          "src/main/resources/data/work_platform/loot_tables/blocks/red_high_strength_concrete.json"
+        ]
+      },
+      "path": "~/hardened_concrete"
+    },
+    {
+      "name": "Blackhighstrengthconcrete",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_high_strength_concrete",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/work_platform/models/item/black_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/models/block/black_high_strength_concrete.json",
+          "src/main/java/net/mcreator/workplatform/block/BlackhighstrengthconcreteBlock.java",
+          "src/main/resources/data/work_platform/loot_tables/blocks/black_high_strength_concrete.json",
+          "src/main/resources/assets/work_platform/blockstates/black_high_strength_concrete.json"
+        ]
+      },
+      "path": "~/hardened_concrete"
+    },
+    {
+      "name": "Light",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Lightpanel",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightpanel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/work_platform/models/item/lightpanel.json",
+          "src/main/resources/data/work_platform/loot_tables/blocks/lightpanel.json",
+          "src/main/java/net/mcreator/workplatform/block/LightpanelBlock.java",
+          "src/main/resources/assets/work_platform/models/block/lightpanel.json",
+          "src/main/resources/assets/work_platform/blockstates/lightpanel.json"
+        ]
+      },
+      "path": "~/Light"
+    },
+    {
+      "name": "Searchlight",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "searchlight",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/work_platform/models/block/searchlight.json",
+          "src/main/java/net/mcreator/workplatform/block/SearchlightBlock.java",
+          "src/main/resources/assets/work_platform/blockstates/searchlight.json",
+          "src/main/resources/assets/work_platform/models/item/searchlight.json",
+          "src/main/resources/data/work_platform/loot_tables/blocks/searchlight.json"
+        ]
+      },
+      "path": "~/Light"
+    },
+    {
+      "name": "Lighttube",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighttube",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/work_platform/blockstates/lighttube.json",
+          "src/main/resources/data/work_platform/loot_tables/blocks/lighttube.json",
+          "src/main/java/net/mcreator/workplatform/block/LighttubeBlock.java",
+          "src/main/resources/assets/work_platform/models/item/lighttube.json",
+          "src/main/resources/assets/work_platform/models/block/lighttube.json"
+        ]
+      },
+      "path": "~/Light"
+    },
+    {
+      "name": "Highstrengthlight",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "highstrengthlight",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/work_platform/loot_tables/blocks/highstrengthlight.json",
+          "src/main/resources/assets/work_platform/blockstates/highstrengthlight.json",
+          "src/main/resources/assets/work_platform/models/block/highstrengthlight.json",
+          "src/main/resources/assets/work_platform/models/item/highstrengthlight.json",
+          "src/main/java/net/mcreator/workplatform/block/HighstrengthlightBlock.java"
+        ]
+      },
+      "path": "~/Light"
+    },
+    {
+      "name": "Replaceableblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "replaceableblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/work_platform/models/item/replaceableblock.json",
+          "src/main/resources/assets/work_platform/blockstates/replaceableblock.json",
+          "src/main/resources/assets/work_platform/models/block/replaceableblock.json",
+          "src/main/java/net/mcreator/workplatform/block/ReplaceableblockBlock.java",
+          "src/main/resources/data/work_platform/loot_tables/blocks/replaceableblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Replaceableblock1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "replaceableblock_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/workplatform/procedures/Replaceableblock1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Workplatformlightingformula2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workplatformlightingformula_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/work_platform/recipes/workplatformlightingformula_2.json"
+        ]
+      },
+      "path": "~/Work platform lighting"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:wp:light": [
+      "CUSTOM:Lightpanel",
+      "CUSTOM:Searchlight",
+      "CUSTOM:Lighttube",
+      "CUSTOM:Highstrengthlight"
+    ],
+    "BLOCKS:wp:high_strength_concrete": [
+      "CUSTOM:WhiteHighstrengthconcrete",
+      "CUSTOM:OrangeHighStrengthConcrete",
+      "CUSTOM:Magentahighstrengthconcrete",
+      "CUSTOM:Lightbluehighstrengthconcrete",
+      "CUSTOM:Yellowhighstrengthconcrete",
+      "CUSTOM:Limehighstrengthconcrete",
+      "CUSTOM:Pinkhighstrengthconcrete",
+      "CUSTOM:Grayhighstrengthconcrete",
+      "CUSTOM:Lightgrayhighstrengthconcrete",
+      "CUSTOM:Cyanhighstrengthconcrete",
+      "CUSTOM:Purplehighstrengthconcrete",
+      "CUSTOM:Bluehighstrengthconcrete",
+      "CUSTOM:Brownhighstrengthconcrete",
+      "CUSTOM:Greenhighstrengthconcrete",
+      "CUSTOM:Redhighstrengthconcrete",
+      "CUSTOM:Blackhighstrengthconcrete",
+      "CUSTOM:Replaceableblock"
+    ],
+    "BLOCKS:minecraft:concrete": [
+      "Blocks.CONCRETE#0",
+      "Blocks.CONCRETE#1",
+      "Blocks.CONCRETE#2",
+      "Blocks.CONCRETE#3",
+      "Blocks.CONCRETE#4",
+      "Blocks.CONCRETE#5",
+      "Blocks.CONCRETE#6",
+      "Blocks.CONCRETE#7",
+      "Blocks.CONCRETE#8",
+      "Blocks.CONCRETE#9",
+      "Blocks.CONCRETE#10",
+      "Blocks.CONCRETE#11",
+      "Blocks.CONCRETE#12",
+      "Blocks.CONCRETE#13",
+      "Blocks.CONCRETE#14",
+      "Blocks.CONCRETE#15"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:Blackhighstrengthconcrete",
+      "~CUSTOM:Redhighstrengthconcrete",
+      "~CUSTOM:Greenhighstrengthconcrete",
+      "~CUSTOM:Brownhighstrengthconcrete",
+      "~CUSTOM:Bluehighstrengthconcrete",
+      "~CUSTOM:Purplehighstrengthconcrete",
+      "~CUSTOM:Cyanhighstrengthconcrete",
+      "~CUSTOM:Lightgrayhighstrengthconcrete",
+      "~CUSTOM:Grayhighstrengthconcrete",
+      "~CUSTOM:Pinkhighstrengthconcrete",
+      "~CUSTOM:Limehighstrengthconcrete",
+      "~CUSTOM:Yellowhighstrengthconcrete",
+      "~CUSTOM:Lightbluehighstrengthconcrete",
+      "~CUSTOM:Magentahighstrengthconcrete",
+      "~CUSTOM:OrangeHighStrengthConcrete",
+      "~CUSTOM:WhiteHighstrengthconcrete"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Replaceableblock",
+      "~CUSTOM:Searchlight",
+      "~CUSTOM:Blackhighstrengthconcrete",
+      "~CUSTOM:Redhighstrengthconcrete",
+      "~CUSTOM:Greenhighstrengthconcrete",
+      "~CUSTOM:Brownhighstrengthconcrete",
+      "~CUSTOM:Bluehighstrengthconcrete",
+      "~CUSTOM:Purplehighstrengthconcrete",
+      "~CUSTOM:Cyanhighstrengthconcrete",
+      "~CUSTOM:Lightgrayhighstrengthconcrete",
+      "~CUSTOM:Grayhighstrengthconcrete",
+      "~CUSTOM:Pinkhighstrengthconcrete",
+      "~CUSTOM:Limehighstrengthconcrete",
+      "~CUSTOM:Yellowhighstrengthconcrete",
+      "~CUSTOM:Lightbluehighstrengthconcrete",
+      "~CUSTOM:Magentahighstrengthconcrete",
+      "~CUSTOM:OrangeHighStrengthConcrete",
+      "~CUSTOM:WhiteHighstrengthconcrete",
+      "~CUSTOM:Workplatformbig",
+      "~CUSTOM:Workplatformlighting",
+      "~CUSTOM:Workplatform"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Replaceableblock",
+      "~CUSTOM:Searchlight",
+      "~CUSTOM:Workplatformbig",
+      "~CUSTOM:Workplatformlighting",
+      "~CUSTOM:Workplatform"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Replaceableblock"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:Platform": [
+      "Workplatform",
+      "Workplatformlighting",
+      "Workplatformbig",
+      "Workplatformbiglighting",
+      "Demolition"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "block.work_platform.replaceableblock": "Replaceable block",
+      "block.work_platform.highstrengthlight": "High strength light",
+      "block.work_platform.lighttube": "Light tube",
+      "block.work_platform.purple_high_strength_concrete": "Purple High Strength Concrete",
+      "block.work_platform.light_gray_high_strength_concrete": "Light Gray High Strength Concrete",
+      "block.work_platform.workplatformbig": "Work platform big",
+      "block.work_platform.demolition": "Demolition",
+      "block.work_platform.workplatformbiglighting": "Work platform big lighting",
+      "block.work_platform.workplatformlighting": "Work platform lighting",
+      "block.work_platform.blue_high_strength_concrete": "Blue High Strength Concrete",
+      "block.work_platform.yellow_high_strength_concrete": "Yellow High Strength Concrete",
+      "block.work_platform.workplatform": "work platform standard",
+      "block.work_platform.cyan_high_strength_concrete": "Cyan High Strength Concrete",
+      "block.work_platform.lightpanel": "Light panel",
+      "block.work_platform.light_blue_high_strength_concrete": "Light Blue High Strength Concrete",
+      "block.work_platform.white_high_strength_concrete": "White High Strength Concrete",
+      "item_group.work_platform.platform": "Platform",
+      "block.work_platform.orange_high_strength_concrete": "Orange High Strength Concrete",
+      "block.work_platform.lime_high_strength_concrete": "Lime High Strength Concrete",
+      "block.work_platform.pink_high_strength_concrete": "Pink High Strength Concrete",
+      "block.work_platform.gray_high_strength_concrete": "Gray High Strength Concrete",
+      "block.work_platform.black_high_strength_concrete": "Black High Strength Concrete",
+      "block.work_platform.green_high_strength_concrete": "Green High Strength Concrete",
+      "item_group.work_platform.light": "Light",
+      "block.work_platform.magenta_high_strength_concrete": "Magenta High Strength Concrete",
+      "block.work_platform.searchlight": "Searchlight",
+      "block.work_platform.red_high_strength_concrete": "Red High Strength Concrete",
+      "block.work_platform.brown_high_strength_concrete": "Brown High Strength Concrete",
+      "item_group.work_platform.hardenedconcrete": "Hardenedconcrete"
+    },
+    "zh_cn": {
+      "block.work_platform.replaceableblock": "可替换模块",
+      "block.work_platform.highstrengthlight": "高强度灯",
+      "block.work_platform.lighttube": "灯管",
+      "block.work_platform.purple_high_strength_concrete": "紫色高强度混凝土",
+      "block.work_platform.light_gray_high_strength_concrete": "淡灰色高强度混凝土",
+      "block.work_platform.workplatformbig": "工作平台_大",
+      "block.work_platform.demolition": "销毁平台",
+      "block.work_platform.workplatformbiglighting": "工作平台_大_照明",
+      "block.work_platform.workplatformlighting": "工作平台_标准_照明",
+      "block.work_platform.blue_high_strength_concrete": "蓝色高强度混凝土",
+      "block.work_platform.yellow_high_strength_concrete": "黄色高强度混凝土",
+      "block.work_platform.workplatform": "工作平台_标准",
+      "block.work_platform.cyan_high_strength_concrete": "青色高强度混凝土",
+      "block.work_platform.lightpanel": "灯板",
+      "block.work_platform.light_blue_high_strength_concrete": "淡蓝色高强度混凝土",
+      "block.work_platform.white_high_strength_concrete": "白色高强度混凝土",
+      "item_group.work_platform.platform": "平台",
+      "block.work_platform.orange_high_strength_concrete": "橙色高强度混凝土",
+      "block.work_platform.lime_high_strength_concrete": "黄绿色高强度混凝土",
+      "block.work_platform.pink_high_strength_concrete": "粉色高强度混凝土",
+      "block.work_platform.gray_high_strength_concrete": "灰色高强度混凝土",
+      "block.work_platform.black_high_strength_concrete": "黑色高强度混凝土",
+      "block.work_platform.green_high_strength_concrete": "绿色高强度混凝土",
+      "item_group.work_platform.light": "灯",
+      "block.work_platform.magenta_high_strength_concrete": "品红色高强度混凝土",
+      "block.work_platform.searchlight": "壁灯",
+      "block.work_platform.red_high_strength_concrete": "红色高强度混凝土",
+      "block.work_platform.brown_high_strength_concrete": "棕色高强度混凝土",
+      "item_group.work_platform.hardenedconcrete": "高强度混凝土(这里的方块不能被合成)"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Work platform standard",
+        "children": []
+      },
+      {
+        "name": "Work platform lighting",
+        "children": []
+      },
+      {
+        "name": "demolition",
+        "children": []
+      },
+      {
+        "name": "Work platform big",
+        "children": []
+      },
+      {
+        "name": "Work platform big lighting",
+        "children": []
+      },
+      {
+        "name": "hardened_concrete",
+        "children": []
+      },
+      {
+        "name": "Light",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "work_platform",
+    "modName": "Work platform",
+    "version": "1.0.1",
+    "author": "508364",
+    "websiteURL": "https://mcreator.net",
+    "license": "Apache License version 2.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.workplatform"
+  },
+  "mcreatorVersion": 202400452410
+}
